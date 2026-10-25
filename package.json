@@ -1,0 +1,29 @@
+{
+  "name": "playwright-e2e-qa-agentic-ai-workflow",
+  "version": "1.0.0",
+  "description": "Autonomous Agentic AI QA workflow for Playwright End-to-End Testing on SauceDemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "agentic-ai",
+    "qa-automation",
+    "testing",
+    "self-healing",
+    "e2e-testing",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}

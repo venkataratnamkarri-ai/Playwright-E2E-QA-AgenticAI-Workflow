@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Test output artifacts
+playwright-report/
+playwright-results/
+blob-report/
+playwright/.cache/
+test-results/.last-run.json
+.last-run.json
+
+# Environment and IDE
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Playwright MCP artifacts
+.playwright-mcp/
